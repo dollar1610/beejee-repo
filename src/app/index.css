@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.create-task {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00C2FF;
+  color: #fff;
+  border: none;
+  width: 200px;
+}
+
+.body {
+  padding-top: 30px;
+}
+
+.body-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.body-header button {
+  background-color: #fff;
+  border: none;
+}
+
+.body-tasks-item {
+  padding: 35px;
+  border: 1px solid #00C2FF;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+.body-tasks-item textarea {
+  padding: 0;
+  border: none;
+  resize: none;
+}
+
+.body-tasks-item-name,
+.body-tasks-item-email,
+.body-tasks-item-text {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.body-task-status {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.body-tasks-item-name {
+  margin-top: 0;
+}
+
+.pagination {
+  justify-content: center;
+  margin-top: 40px;
+}
+.status button,
+.email button,
+.username button {
+  padding: 0;
+  margin-left: 10px;
+}
+
+.status button i,
+.email button i,
+.username button i {
+  display: flex;
+}
